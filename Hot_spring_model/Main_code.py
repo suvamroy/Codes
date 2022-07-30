@@ -2,7 +2,7 @@
 
 # This code can generate the data files corresponding to Figure 2, 3 and 6 of the main text. #
 # The present version of code is set to generate a data file for figure 3. The user will     #
-# have to comment/uncomment different blocks of code as well as make necessary changes to 
+# have to comment/uncomment different blocks of code as well as make necessary changes to    #
 # gel phase section to generate other data files. 					     # 
 
 # ...........................................................................................#
