@@ -1,9 +1,10 @@
 #............................................................................................#
 
 # This code can generate the data files corresponding to Figure 2, 3 and 6 of the main text. #
-# The present version of code is set to generate a data file for figure 3. The user will     #
-# have to comment/uncomment different blocks of code as well as make necessary changes to    #
-# gel phase section to generate other data files. 					     # 
+# The present version of code is set to generate the data file corresponding to the curve    #
+# D=1.28 and P_kill=0.01 of figure 3. The user will have to comment/uncomment different      #
+# blocks of code as well as make necessary changes to gel phase section to generate other    #
+# data files. 					     					     # 
 
 # ...........................................................................................#
 
@@ -306,11 +307,11 @@ for day in range (0,1000):
 		
 	
 	##### Protocell degration #####
-	'''
+	
 	for i in range (0,N):
 		for j in range (0,N):
 			if random.uniform(0,1)<P_kill:
-				cell[i][j]=[[],[],[],[],[],[],[]]'''
+				cell[i][j]=[[],[],[],[],[],[],[]]
 	
 	
 	##### Protocell division #####
