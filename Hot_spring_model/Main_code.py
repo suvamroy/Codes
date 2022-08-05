@@ -87,6 +87,8 @@ for day in range (0,1000):
 			nucsy[i][i1]=n
 			peptr[i][i1]=p
 			
+			V[i][i1]=100+20*p
+			
 			# Make number and ribzyme matrices binary
 			
 			if s+d+l+r+c+n+p>0:
@@ -439,9 +441,9 @@ for day in range (0,1000):
 					cell[i][i1][6][k]='X'
 			cell[i][i1][6]=[k for k in cell[i][i1][6] if k!='X']
 			
-			if j>=1 and j<=N and j1>=1 and j1<=N:
-				V[j-1][j1-1]=100+20*len(cell[j][j1][6])
-				V[i-1][i1-1]=100+20*len(cell[i][i1][6])
+			
+			V[j][j1]=100+20*len(cell[j][j1][6])
+			V[i][i1]=100+20*len(cell[i][i1][6])
 				
 	
 	
