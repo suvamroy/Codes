@@ -107,7 +107,7 @@ for day in range (0,1000):
 	# Export data files for figure 2
 	'''
 	fl=open('D_1.28.txt','a+')		
-	fl.write('%d' %day + '\t' + '%d' %(list(numbers.flatten()).count(5)) + '\n')
+	fl.write('%d' %day + '\t' + '%d' %(list(ribozymes.flatten()).count(5)) + '\n')
 	fl.close()'''
 	
 	# Export data files for figure 3
